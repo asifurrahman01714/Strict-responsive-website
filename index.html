@@ -17,6 +17,36 @@
   </head>
   <body>
     
+    <!-- preloader start. -->
+
+
+    <div class="preloader">
+        <div class="loader">
+            <span style="--i: 1;"></span>
+            <span style="--i: 2;"></span>
+            <span style="--i: 3;"></span>
+            <span style="--i: 4;"></span>
+            <span style="--i: 5;"></span>
+            <span style="--i: 6;"></span>
+            <span style="--i: 7;"></span>
+            <span style="--i: 8;"></span>
+            <span style="--i: 9;"></span>
+            <span style="--i: 10;"></span>
+            <span style="--i: 11;"></span>
+            <span style="--i: 12;"></span>
+            <span style="--i: 13;"></span>
+            <span style="--i: 14;"></span>
+            <span style="--i: 15;"></span>
+            <span style="--i: 16;"></span>
+            <span style="--i: 17;"></span>
+            <span style="--i: 18;"></span>
+            <span style="--i: 19;"></span>
+            <span style="--i: 20;"></span>
+            
+        </div>
+    </div>
+
+     <!-- preloader end. -->
 
     <!-- header part start -->
    <header>
@@ -232,7 +262,7 @@
   <div class="contact">
      <div class="container">
          <div class="row justify-content-center">
-             <div class="col-sm-9 ">
+             <div class="col-sm-9 dg">
                  <div class="contact_content pt-4 pb-4 text-center ">
                      <h1>stay with us</h1>
                      <h5>we ensure quality and support</h5>
@@ -286,5 +316,17 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://rawgit.com/kottenator/jquery-circle-progress/1.2.2/dist/circle-progress.js"></script>
+    <script src="js/jquery.min.js" ></script>
+   
+    <script>
+    setTimeout(function(){
+    $('.preloader').fadeToggle();
+    }, 3000);
+    
+    </script>
+
+
+
+</body>
 </html>
